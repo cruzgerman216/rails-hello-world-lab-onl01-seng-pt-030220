@@ -768,3 +768,17 @@ Processing by StaticController#hello_world as HTML
 Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello_world" for 50.91.6.221 at 2020-07-01 23:19:52 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering layouts/application.html.erb within layouts/application
+  Rendered layouts/application.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 50.91.6.221 at 2020-07-01 23:19:55 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering layouts/application.html.erb within layouts/application
+  Rendered layouts/application.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
