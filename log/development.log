@@ -1952,3 +1952,10 @@ app/controllers/static_controller.rb:3:in `hello_world'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (16.1ms)
+Started GET "/hello_world" for 50.91.6.221 at 2020-07-01 23:29:05 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering hello_world.html.erb within layouts/application
+  Rendered hello_world.html.erb within layouts/application (294.0ms)
+Completed 200 OK in 299ms (Views: 298.6ms | ActiveRecord: 0.0ms)
+
+
